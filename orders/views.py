@@ -10,3 +10,5 @@ def custom_404(request, exception):
 
 def style(request):
     return(render, 'style.html')
+def AboutUs(request):
+    return (render, 'aboutus.html')
